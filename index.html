@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tech Portfolio by Mark</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">Mark Tagulao</div>
+                <div id="menu" class="menu">
+                    <a href="#storage">Storage</a>
+                    <a href="#bills">Pay Online</a>
+                    <a href="#cybersecurity">Cybersecurity</a>
+                    <a href="#resume">Resume</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="storage">
+            <div class="container">
+                <h2>Different Types of Storage</h2>
+                <div class="carousel">
+                    <div class="slide">
+                        <img src="assets/slide-1.png" alt="Image 1">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/slide-2.png" alt="Image 2">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/slide-3.png" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/slide-4.png" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/slide-5.png" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/slide-7.png" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/slide-8.png" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/slide-9.png" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/slide-10.png" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/slide-11.jpg" alt="Image 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bills">
+            <h2>How to Pay Bills Online</h2>
+            <img src="assets/pay_bill.jpg" width="300" alt="how to pay Bills">
+        </section>
+        <section id="cybersecurity">
+            <h2>How to Be Safe Online</h2>
+            <div class="video" width="300px">
+                <video width="300" controls>
+                    <source src="assets/TAGULAO_MARK_Q.mp4" type="video/mp4">
+                    " Your browser doesn't support the video tag. "
+                </video>
+            </div>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <img src="assets/resume.jpg" width="300" alt="resume">
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <ul class="social-icons">
+              <li><a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+      $(document).ready(function(){
+          $('.carousel').slick({
+              dots: true,
+              arrows: false,
+              autoplay: true,
+              autoplaySpeed: 3000
+          });
+      });
+    </script>
+</body>
+</html>
